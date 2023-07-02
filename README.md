@@ -21,7 +21,7 @@ BEGIN
      INSERT INTO
      	seats(is_booked, "name")
      VALUES(0, 'EMPTY');
-      i := i + 1; -- Increment the loop counter
+      i := i + 1; 
    END LOOP;
 END;
 $$ LANGUAGE plpgsql;
